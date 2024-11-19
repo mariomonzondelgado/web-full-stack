@@ -151,5 +151,3 @@ A continuación, te detallo un plan de estudio de 6 meses para convertirte en de
    - [Node.js](https://nodejs.org/)
    - [MongoDB](https://www.mongodb.com/)
    - [Express](https://expressjs.com/)
-
-Si necesitas ayuda con algún paso o quieres recursos adicionales para un área específica, ¡no dudes en pedirlo! 😊
