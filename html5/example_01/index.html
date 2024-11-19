@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ejemplo de una página web completa en HTML5">
+  <meta name="keywords" content="HTML5, ejemplo, tutorial">
+  <meta name="author" content="Tu Nombre">
+  <title>Ejemplo Completo en HTML5</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Encabezado principal -->
+  <header>
+    <h1>Bienvenido a Mi Sitio Web</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre Mí</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Contenido principal -->
+  <main>
+    <!-- Sección de bienvenida -->
+    <section id="inicio">
+      <h2>Inicio</h2>
+      <p>Esta es una página de ejemplo creada con HTML5. Explora las secciones para aprender más sobre cómo construir páginas web modernas y semánticas.</p>
+    </section>
+
+    <!-- Sección "Sobre mí" -->
+    <section id="sobre-mi" style="padding: 20px; font-family: Arial, sans-serif; line-height: 1.6; background-color: #f9f9f9; border-radius: 8px;">
+        <h2 style="font-size: 2em; color: #333; text-align: center;">Sobre mí</h2>
+      <article>
+        <h3>Mi Historia</h3>
+        <figure>
+            <img src="img/foto_perfil_nerd.webp" alt="Una foto mía" width="300">
+            <figcaption>Este soy yo</figcaption>
+          </figure>
+        <p>
+            ¡Hola! Mi nombre es Alex, y soy un apasionado del mundo geek. Desde pequeño, la tecnología, los videojuegos y la ciencia ficción han sido parte fundamental de mi vida. 
+            Mi curiosidad me llevó a desmontar ordenadores para entender cómo funcionaban y a diseñar mi primer videojuego en 8 bits cuando tenía apenas 12 años.
+        </p>
+        <p>
+            Actualmente, trabajo como programador y diseñador de videojuegos independiente. Combino mis conocimientos en desarrollo de software con mi amor por 
+            la creatividad y la narrativa para crear experiencias únicas que conectan con los jugadores. Cuando no estoy escribiendo código, suelo perderme en 
+            mundos de fantasía y ciencia ficción, ya sea leyendo novelas de Isaac Asimov, viendo películas clásicas como <em>Star Wars</em>, o explorando 
+            los límites del multiverso en debates con amigos.
+        </p>
+        <p>
+            En mi tiempo libre, organizo partidas de <em>Dungeons & Dragons</em>, disfruto coleccionando figuras de acción y me dedico a aprender algo nuevo cada día, 
+            ya sea sobre teorías de física avanzada o las últimas tendencias en inteligencia artificial. Mi setup de PC, iluminado con luces LED, es mi 
+            rincón favorito donde paso horas desarrollando proyectos y disfrutando de videojuegos.
+        </p>
+        <p>
+            Este sitio web es mi espacio personal, donde comparto mis proyectos, mis ideas y un poco de mi mundo geek. Si compartes alguna de mis pasiones 
+            o simplemente quieres saber más sobre mí, no dudes en contactarme. ¡Gracias por visitar mi rincón del universo digital! 👾
+        </p>
+      </article>
+      <aside>
+        <p><strong>Dato curioso:</strong> ¡HTML5 hizo su debut oficial en 2014!</p>
+      </aside>
+    </section>
+
+    <!-- Sección de galería -->
+    <section id="galeria">
+      <h2>Galería</h2>
+      <figure>
+        <img src="img/alex_pc.webp" alt="Yo en mi PC" width="300">
+        <figcaption>Yo en mi PC</figcaption>
+      </figure>
+      <figure>
+        <img src="img/alex_libro.webp" alt="Yo leyendo un libro" width="300">
+        <figcaption>Algo de lectura ligera</figcaption>
+      </figure>
+    </section>
+
+    <!-- Tabla de información -->
+    <section id="tabla">
+      <h2>Tabla de Información</h2>
+      <table>
+        <caption>Proyectos Recientes</caption>
+        <thead>
+          <tr>
+            <th>Proyecto</th>
+            <th>Descripción</th>
+            <th>Año</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Web de Fotografía</td>
+            <td>Una plataforma para compartir imágenes.</td>
+            <td>2023</td>
+          </tr>
+          <tr>
+            <td>Tienda Online</td>
+            <td>Comercio electrónico para accesorios de mascotas.</td>
+            <td>2024</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Multimedia -->
+    <section id="multimedia">
+      <h2>Multimedia</h2>
+      <h3>Video de Presentación</h3>
+      <video id="video" controls preload="metadata" width="400">
+        <source src="video.mp4" type="video/mp4">
+        <source src="video.ogg" type="video/ogg">
+        <!-- Subtítulos -->
+        <track label="Español" kind="captions" srclang="es" src="resources/myvideo-es.vtt">
+        Tu navegador no soporta videos.
+      </video>
+
+      <h3>Podcast</h3>
+      <audio controls>
+        <source src="audio.mp3" type="audio/mpeg">
+        Tu navegador no soporta audio.
+      </audio>
+    </section>
+  </main>
+
+  <!-- Formulario de contacto -->
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <form action="/enviar" method="POST">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+
+      <label for="email">Correo Electrónico:</label>
+      <input type="email" id="email" name="email" placeholder="Tu correo" required>
+
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <!-- Pie de página -->
+  <footer>
+    <p>© 2024 Mi Sitio Web. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
