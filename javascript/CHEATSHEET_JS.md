@@ -257,5 +257,3 @@ document.getElementById("añadirElemento").addEventListener("click", () => {
   lista.appendChild(nuevoItem);
 });
 ```
-
-¡Listo! Con esta CheatSheet puedes abordar la mayoría de tareas esenciales en JavaScript. ¿Quieres profundizar en algún tema en específico? 😊
