@@ -1,0 +1,141 @@
+/* 1. Estilo global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+main {
+  padding: 20px;
+}
+
+/* 2. Tarjetas de Sección */
+.card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+/* 3. Ejemplos */
+.example-box {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+/* Colores y Fondos */
+.bg-color {
+  background-color: #007bff;
+  color: white;
+}
+
+.text-color {
+  color: #ff5722;
+}
+
+.bg-image {
+  background-image: url('https://via.placeholder.com/200');
+  background-size: cover;
+  background-position: center;
+  height: 100px;
+}
+
+/* Tipografía */
+.font-style {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.text-align {
+  text-align: right;
+}
+
+/* Espaciado */
+.margin-box {
+  margin: 20px;
+  background-color: #f1f1f1;
+}
+
+.padding-box {
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+/* 4. Flexbox */
+.flex-container {
+  display: flex;
+  gap: 10px;
+}
+
+.flex-item {
+  background: #4caf50;
+  color: white;
+  padding: 10px;
+  flex: 1;
+  text-align: center;
+  border-radius: 4px;
+}
+
+/* 5. Grid */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.grid-item {
+  background: #ff9800;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+/* 6. Diseño Responsive */
+@media (max-width: 768px) {
+  .flex-container {
+    flex-direction: column;
+  }
+
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
