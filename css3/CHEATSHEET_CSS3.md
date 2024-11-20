@@ -287,5 +287,3 @@ div {
 </body>
 </html>
 ```
-
-¿Quieres explorar algún tema específico en CSS, como animaciones avanzadas o diseño responsive? 😊
