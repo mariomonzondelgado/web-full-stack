@@ -217,5 +217,3 @@ git push origin nueva-funcionalidad
 - [Documentación Oficial de Git](https://git-scm.com/doc)
 - [Documentación Oficial de GitHub](https://docs.github.com/)
 - [Tutorial de Git y GitHub en Español (YouTube)](https://www.youtube.com/results?search_query=git+y+github+español)
-
-Con esta CheatSheet puedes comenzar a trabajar con Git y GitHub de manera efectiva. ¿Te gustaría un ejemplo práctico o más detalles sobre algún comando? 😊
