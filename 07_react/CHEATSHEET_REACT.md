@@ -329,5 +329,3 @@ nav {
 - [React Router Docs](https://reactrouter.com/)
 - [Styled-Components Docs](https://styled-components.com/)
 - [Curso Completo de React (YouTube)](https://www.youtube.com)
-
-Si necesitas ejemplos más específicos o un desglose más profundo, ¡puedes pedírmelo! 😊
